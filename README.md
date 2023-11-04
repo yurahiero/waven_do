@@ -45,3 +45,6 @@ flutter pub get
 ```bash
 flutter run
 ```
+
+## Contribuições
+Contribuições são bem-vindas! Se você deseja melhorar ou expandir o WavenDo, fique à vontade para criar um fork do repositório e enviar suas solicitações de pull.
