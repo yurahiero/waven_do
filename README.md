@@ -11,6 +11,10 @@
 ![dark](https://github.com/yurahiero/waven_do/assets/145340493/ef879076-a8ec-4ca7-bd9c-03e741e54761)
 ![dark2](https://github.com/yurahiero/waven_do/assets/145340493/704c33be-c613-4e91-8cd9-a282aa0e091d)
 
+## Vídeo:
+
+[![Assista ao vídeo](https://www.mediafire.com/...)](https://www.mediafire.com/file/cduwmneg682tfab/Screenrecorder-2023-11-04-11-07-20-281.mp4/file)
+
 
 ## Visão Geral
 
@@ -55,6 +59,23 @@ flutter pub get
 ```bash
 flutter run
 ```
+
+Ou pode fazer o download aqui:
+## Download Alternativo:
+- [Download APK](https://www.mediafire.com/file/tlt2tiexjmy723g/waven-do.apk/file)
+- [Download ZIP](https://www.mediafire.com/file/7tyajj5dnz4d0ka/waven-do.zip/file)
+
+## Vídeo:
+
+[![Assista ao vídeo](https://www.mediafire.com/...)](https://www.mediafire.com/file/cduwmneg682tfab/Screenrecorder-2023-11-04-11-07-20-281.mp4/file)
+
+
+## Próximas funcionalidades:
+
+- Armazenamento e sincronização com a nuvem
+- Notificação periódica com som
+- Gráfico de tarefas completas
+- Botão de adicionar listagens
 
 ## Contribuições
 Contribuições são bem-vindas! Se você deseja melhorar ou expandir o WavenDo, fique à vontade para criar um fork do repositório e enviar suas solicitações de pull.
