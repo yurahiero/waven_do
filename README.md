@@ -1,9 +1,9 @@
 # WavenDo
 
 ![Logo do WavenDo](assets/waven_do.png)
+
+
 ![dark](https://github.com/yurahiero/waven_do/assets/145340493/ef879076-a8ec-4ca7-bd9c-03e741e54761)
-
-
 
 ## Visão Geral
 
