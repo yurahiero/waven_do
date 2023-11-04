@@ -1,6 +1,8 @@
 # WavenDo
 
 ![Logo do WavenDo](assets/waven_do.png)
+![Screenshot_2023-11-04-11-10-30-441_com example to_do_app](https://github.com/yurahiero/waven_do/assets/145340493/386c780c-c275-4d0f-8d1e-ff91a75edd47)
+
 
 ## Visão Geral
 
