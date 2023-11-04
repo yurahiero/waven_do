@@ -13,7 +13,7 @@
 
 ## Vídeo:
 
-[![Assista ao vídeo](https://www.mediafire.com/...)](https://www.mediafire.com/file/cduwmneg682tfab/Screenrecorder-2023-11-04-11-07-20-281.mp4/file)
+[Assista ao vídeo no YouTube](https://www.youtube.com/watch?v=bchsEMw-2gA)
 
 
 ## Visão Geral
@@ -64,10 +64,6 @@ Ou pode fazer o download aqui:
 ## Download Alternativo:
 - [Download APK](https://www.mediafire.com/file/tlt2tiexjmy723g/waven-do.apk/file)
 - [Download ZIP](https://www.mediafire.com/file/7tyajj5dnz4d0ka/waven-do.zip/file)
-
-## Vídeo:
-
-[![Assista ao vídeo](https://www.mediafire.com/...)](https://www.mediafire.com/file/cduwmneg682tfab/Screenrecorder-2023-11-04-11-07-20-281.mp4/file)
 
 
 ## Próximas funcionalidades:
