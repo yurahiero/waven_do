@@ -37,11 +37,13 @@ git clone https://github.com/seu-usuario/wavendo.git```
 2. Abra o projeto com o Flutter.
 ```bash
 cd wavendo
-flutter pub get```
+flutter pub get
+```
 
 3.Execute o aplicativo.
 ```bash
-flutter run```
+flutter run
+´´´
 
 
 
