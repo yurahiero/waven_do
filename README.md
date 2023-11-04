@@ -3,7 +3,14 @@
 ![Logo do WavenDo](assets/waven_do.png)
 
 
+![light](https://github.com/yurahiero/waven_do/assets/145340493/f1ce514d-7b5c-459b-afb7-71d2a582a2e5)
+![light2](https://github.com/yurahiero/waven_do/assets/145340493/5385a75c-e88b-41c2-a3e9-02bb98e2a8f4)
+
+
+
 ![dark](https://github.com/yurahiero/waven_do/assets/145340493/ef879076-a8ec-4ca7-bd9c-03e741e54761)
+![dark2](https://github.com/yurahiero/waven_do/assets/145340493/704c33be-c613-4e91-8cd9-a282aa0e091d)
+
 
 ## Visão Geral
 
