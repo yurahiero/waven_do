@@ -36,7 +36,4 @@ git clone https://github.com/seu-usuario/wavendo.git
 cd wavendo
 flutter pub get
 
-2. Execute o aplicativo.
 
-```bash
-flutter run
