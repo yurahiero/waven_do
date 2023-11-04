@@ -44,3 +44,4 @@ flutter pub get
 3.Execute o aplicativo.
 ```bash
 flutter run
+```
