@@ -32,9 +32,5 @@ Para executar o **WavenDo** em seu dispositivo, siga estas etapas:
 1. Clone este repositório para o seu computador.
 
 ```bash
-git clone https://github.com/seu-usuario/wavendo.git
-Abra o projeto com o Flutter.
-bash
-Copy code
 cd wavendo
 flutter pub get
