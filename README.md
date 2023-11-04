@@ -33,6 +33,8 @@ Para executar o **WavenDo** em seu dispositivo, siga estas etapas:
 
 ```bash
 git clone https://github.com/seu-usuario/wavendo.git
+
+```bash
 cd wavendo
 flutter pub get
 
