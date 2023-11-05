@@ -111,7 +111,7 @@ class _ItemFormScreenState extends State<ItemFormScreen> {
             SizedBox(
               height: size.height / 10,
               child: TextField(
-                maxLength: 50,
+                maxLength: 150,
                 maxLines: 1,
                 style: GoogleFonts.roboto(
                   fontSize: 25,
