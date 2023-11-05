@@ -132,7 +132,11 @@ class _ItemFormScreenState extends State<ItemFormScreen> {
                 ),
               ),
             ),
-            Text(formatDateTime(DateTime.now()), style: kHintTextStyle),
+            Text(
+                widget.item?.createdAt != null
+                    ? formatDateTime(widget.item!.createdAt)
+                    : formatDateTime(DateTime.now()),
+                style: kHintTextStyle),
             SingleChildScrollView(
               child: TextField(
                 style: GoogleFonts.roboto(

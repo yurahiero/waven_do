@@ -49,6 +49,8 @@ void showTaskDialog(BuildContext context, TaskBloc bloc, {Task? task}) async {
                             maxLength: 100,
                             decoration: const InputDecoration(
                                 labelText: 'Título da tarefa'),
+                            onTapOutside: (event) =>
+                                FocusScope.of(context).unfocus(),
                           ),
                           PrioritySelector(
                             selectedPriority: selectedPriority,

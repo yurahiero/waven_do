@@ -74,10 +74,10 @@ DateType getDateType(DateTime dateTime) {
   }
 }
 
-String formatDateTime(DateTime dateTime) {
+String formatDateTime(DateTime? dateTime) {
   initializeDateFormatting('pt', 'BR');
 
-  switch (getDateType(dateTime)) {
+  switch (getDateType(dateTime!)) {
     case DateType.today:
       return 'Hoje ${DateFormat('HH:mm', 'pt_BR').format(dateTime)}';
     case DateType.yesterday:
