@@ -46,7 +46,8 @@ void showTaskDialog(BuildContext context, TaskBloc bloc, {Task? task}) async {
                             validator:
                                 Validatorless.required('O campo é obrigatório'),
                             controller: titleController,
-                            maxLength: 100,
+                            maxLength: 75,
+                            maxLines: 2,
                             decoration: const InputDecoration(
                                 labelText: 'Título da tarefa'),
                             onTapOutside: (event) =>

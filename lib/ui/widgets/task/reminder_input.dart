@@ -21,51 +21,54 @@ class ReminderInput extends StatefulWidget {
 class _ReminderInputState extends State<ReminderInput> {
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      title: Text(
-        widget.selectedReminderDateTime != null
-            ? formatDateTime(widget.selectedReminderDateTime!)
-            : 'Nenhum lembrete definido',
-        style: GoogleFonts.roboto(
-          color: widget.selectedReminderDateTime != null
-              ? getTextTheme(context).bodyMedium!.color
-              : Colors.grey,
+    return SizedBox(
+      height: getHeight(context) * 0.066,
+      child: ListTile(
+        title: Text(
+          widget.selectedReminderDateTime != null
+              ? formatDateTime(widget.selectedReminderDateTime!)
+              : 'Nenhum lembrete definido',
+          style: GoogleFonts.roboto(
+            color: widget.selectedReminderDateTime != null
+                ? getTextTheme(context).bodyMedium!.color
+                : Colors.grey,
+          ),
         ),
-      ),
-      trailing: const Icon(Icons.edit),
-      onTap: () async {
-        final selectedDate = await showDatePicker(
-          context: context,
-          initialDate: widget.selectedReminderDateTime != null &&
-                  widget.selectedReminderDateTime!.isBefore(DateTime.now())
-              ? DateTime.now()
-              : widget.selectedReminderDateTime ?? DateTime.now(),
-          firstDate: DateTime.now(),
-          lastDate: DateTime(2101),
-        );
-        if (selectedDate != null) {
-          final now = DateTime.now();
-          selectedDate.day == now.day &&
-                  selectedDate.month == now.month &&
-                  selectedDate.year == now.year
-              ? TimeOfDay.fromDateTime(now)
-              : const TimeOfDay(hour: 0, minute: 0);
-          final selectedTime = await showTimePicker(
+        trailing: const Icon(Icons.edit),
+        onTap: () async {
+          final selectedDate = await showDatePicker(
             context: context,
-            initialTime:
-                TimeOfDay.fromDateTime(widget.selectedReminderDateTime ?? now),
+            initialDate: widget.selectedReminderDateTime != null &&
+                    widget.selectedReminderDateTime!.isBefore(DateTime.now())
+                ? DateTime.now()
+                : widget.selectedReminderDateTime ?? DateTime.now(),
+            firstDate: DateTime.now(),
+            lastDate: DateTime(2101),
           );
-          if (selectedTime != null) {
-            widget.onReminderDateTimeChanged(DateTime(
-              selectedDate.year,
-              selectedDate.month,
-              selectedDate.day,
-              selectedTime.hour,
-              selectedTime.minute,
-            ));
+          if (selectedDate != null) {
+            final now = DateTime.now();
+            selectedDate.day == now.day &&
+                    selectedDate.month == now.month &&
+                    selectedDate.year == now.year
+                ? TimeOfDay.fromDateTime(now)
+                : const TimeOfDay(hour: 0, minute: 0);
+            final selectedTime = await showTimePicker(
+              context: context,
+              initialTime: TimeOfDay.fromDateTime(
+                  widget.selectedReminderDateTime ?? now),
+            );
+            if (selectedTime != null) {
+              widget.onReminderDateTimeChanged(DateTime(
+                selectedDate.year,
+                selectedDate.month,
+                selectedDate.day,
+                selectedTime.hour,
+                selectedTime.minute,
+              ));
+            }
           }
-        }
-      },
+        },
+      ),
     );
   }
 }
