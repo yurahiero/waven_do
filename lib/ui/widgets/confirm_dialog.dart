@@ -21,8 +21,8 @@ class ConfirmDialog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: Text(title),
-      content: Text(content),
+      title: Text(title, overflow: TextOverflow.ellipsis, maxLines: 3),
+      content: Text(content, overflow: TextOverflow.ellipsis, maxLines: 4),
       actions: [
         TextButton(
           onPressed: () => Navigator.pop(context),
@@ -45,7 +45,7 @@ void deleteItemConfirm(Item item, BuildContext context, ItemBloc bloc) {
     context: context,
     builder: (context) => ConfirmDialog(
       title: 'Excluir ${item.name}',
-      content: 'Você tem certeza que deseja excluir "${item.name}"',
+      content: 'Você tem certeza que deseja excluir a anotação "${item.name}"',
       onConfirm: () => bloc.add(DeleteItemEvent(item)),
     ),
   );
@@ -60,7 +60,7 @@ void deleteTaskConfirm(
     context: context,
     builder: (context) => ConfirmDialog(
       title: 'Excluir ${task.title}',
-      content: 'Você tem certeza que deseja excluir "${task.title}"?',
+      content: 'Você tem certeza que deseja excluir a tarefa "${task.title}"?',
       onConfirm: () => bloc.add(DeleteTask(task.id)),
     ),
   );

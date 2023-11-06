@@ -17,13 +17,6 @@ TextTheme getTextTheme(context) {
   return Theme.of(context).textTheme;
 }
 
-space(double heigth, double width) {
-  return SizedBox(
-    height: getHeight(heigth),
-    width: getWidth(width),
-  );
-}
-
 // NAVIGATOR
 Route createRoute(context, screen) {
   return PageRouteBuilder(

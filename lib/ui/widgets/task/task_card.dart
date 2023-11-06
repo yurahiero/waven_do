@@ -120,7 +120,10 @@ class _TaskCardState extends State<TaskCard> {
                                 : '',
                             style: kHintTextStyle,
                           ),
-                        )
+                        ),
+                        widget.task.reminderDateTime != null
+                            ? SizedBox(height: size.height * 0.01)
+                            : const SizedBox(),
                       ],
                     ),
                   ),
